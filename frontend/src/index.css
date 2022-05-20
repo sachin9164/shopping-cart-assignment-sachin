@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Flex', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Roboto Flex', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+button{
+  border-radius: 0px !important;
+  text-transform: none !important;
+  font-size: 12px !important;
+  background-color: #d42559 !important;
+ 
+}
+
