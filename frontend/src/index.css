@@ -1,23 +1,66 @@
 body {
   margin: 0;
-  font-family: 'Roboto Flex', sans-serif !important;
+  font-family: "Roboto Flex", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-button{
+button {
   border-radius: 0px !important;
   text-transform: none !important;
   font-size: 12px !important;
   background-color: #d42559 !important;
- 
+  border: none;
 }
 
+.sidebar {
+  height: 450px;
+  background-color: #ddd;
+}
+
+@media only screen and (max-width: 700px) {
+  .homeimage {
+    width: 114px;
+  }
+  .homeproduct {
+    display: flex;
+    align-items: center;
+  }
+  .mymodal {
+    width: 77% !important;
+    top: 57% !important;
+    left: 49% !important;
+  }
+  .sidebar {
+    display: none;
+  }
+  .dashboard {
+    display: flex;
+    justify-content: center;
+  }
+
+  .popover {
+    display: block !important;
+    text-align: center;
+    width: 100%;
+  }
+
+  #popoverbtn {
+    width: 100%;
+    color: white;
+  }
+}
+.btn {
+  background-color: #ddd !important;
+}
+.defaultProduct {
+  visibility: hidden;
+}
